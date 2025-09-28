@@ -2,6 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+        <link href="desktop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
         <title>Contact Me - Daniel Vong Portfolio Web and Script Assignment 1</title>
     </head>
     <body>
@@ -15,18 +19,19 @@
                     <a href ="contact.html">Contact Me</a>
                 </nav>
             </header>
-            <form action="contact.html">
+            <form action="#" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name">
                 <label for="email">Email:</label>
                 <input type="text" id="email">
-                <textarea name="message" rows="5" cols="20"> 
+                <label for="message">Comments:</label>
+                <textarea name="message" rows="5" cols="20">Type Here
                 </textarea>
                 <input type="submit" value ="Submit">
             </form>
         </div>
         <footer>
-            <h5>Site by Daniel Vong</h5>
+            <h5>© 2025 Site by Daniel Vong</h5>
         </footer>
     </body>
 </html>

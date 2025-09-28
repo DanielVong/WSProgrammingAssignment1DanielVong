@@ -1,0 +1,9 @@
+@media only screen and (max-width:480px) {
+    #wrapper{
+        width: 100%;
+    }
+    body{
+        padding: 0px;
+        margin: 0px
+    }
+}
