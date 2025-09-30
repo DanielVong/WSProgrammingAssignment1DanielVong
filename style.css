@@ -1,27 +1,37 @@
 body {
+    /* Changes the background colour of everything in the body element */
     background-color: #0D0D0D;
+    /* This impacts the thickness of the padding */
     padding: 0px;
+    /* Impacts thickness of margin */
     margin: 0px;
 }
 #wrapper {
     background-color: #36BFB1;
 }
+/* CSS specifications for header and footer */
 header, footer {
-background: linear-gradient(to right, #02735E, #36BFB1);
-color: #0D0D0D;
-padding-top:5px;
-padding-bottom:5px;
+    /* Linear gradient (Colour blends into the other) from left to right */
+    background: linear-gradient(to right, #02735E, #36BFB1);
+    /* Colour of the text */
+    color: #0D0D0D;
+    /* padding-top makes it so that the padding value can be made different from the bottom */
+    padding-top:5px;
+    padding-bottom:5px;
 }
 aside {
-background-color: #02735E;
-float: right;
-width: 250px;
-margin: 5px;
-padding: 5px;
+    background-color: #02735E;
+    /* Pushes everything in this element to the right*/
+    float: right;
+    /*Width of the element */
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
 }
 
 img{
-    max-width: 50%;
+    /* Max-width allowed in respect to the screen size */
+    max-width: 100%;
 }
 form{
     max-width: 25%;

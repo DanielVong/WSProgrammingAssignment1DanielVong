@@ -9,4 +9,11 @@
         padding: 0px;
         margin: 0px
     }
+    aside {
+        background-color: #02735E;
+        float: right;
+        width: 250px;
+        margin: 5px;
+        padding: 5px;
+}
 }

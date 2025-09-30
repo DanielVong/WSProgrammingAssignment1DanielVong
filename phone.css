@@ -1,9 +1,27 @@
+/* Phone viewport specific CSS commands */
 @media only screen and (max-width:480px) {
     #wrapper{
-        width: 100%;
+        /* width dictates how wide the objects in the wrapper element can be 
+        in comparison to the total screen size */
+        width: 80%;
     }
+    aside {
+        /* Changes the background colour of the objects in this element */
+        background-color: #36BFB1;
+        /* Pushes the aside element to the right */
+        float: right;
+        width: 250px;
+        /* Controls thickness of the margin */
+        margin: 5px;
+        /*Controls thickness of the padding */
+        padding: 5px;
+}
     body{
         padding: 0px;
         margin: 0px
+    }
+    img{
+        /* Limits the maximum width to 50% of the screen */
+        max-width: 50%;
     }
 }

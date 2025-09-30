@@ -1,12 +1,24 @@
+/* CSS for a tablet specific viewport */
 @media only screen and (min-width:481px) and (max-width:960px) {
     #wrapper{
         width: 100%;
-height: 800px;
-margin-left: auto;
-margin-right: auto;
+        /* Changes height of the wrapper element */
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
     }
     body{
         padding: 0px;
         margin: 0px
     }
+    aside {
+        background-color: #038C73;
+        float: right;
+        width: 200px;
+        margin: 5px;
+        padding: 5px;
+    }
+    img{
+    max-width: 75%;
+}
 }
