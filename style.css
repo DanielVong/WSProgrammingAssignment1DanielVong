@@ -36,3 +36,6 @@ img{
 form{
     max-width: 25%;
 }
+footer p{
+    font-size: smaller;
+}
